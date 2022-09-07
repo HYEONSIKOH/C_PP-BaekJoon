@@ -7,21 +7,21 @@ using namespace std;
 
 int main() {
 	ios_base::sync_with_stdio(false);
-	cin.tie(NULL),cout.tie(NULL);
+	cin.tie(NULL), cout.tie(NULL);
 
 	vector <pair<int, int>> arr;
-	priority_queue<int,vector<int>,greater<int>> q;
+	priority_queue<int, vector<int>, greater<int>> q;
 	int num;
 	cin >> num;
 
 	// 일단 백터에 저장한 뒤, 마감일 순으로 오름차순 정렬!
-	int day,grade;
+	int day, grade;
 	for (int i = 0; i < num; i++) {
 		cin >> day >> grade;
 		arr.push_back(make_pair(day, grade));
 	}
 	sort(arr.begin(), arr.end());
-	
+
 	// 오름차순(최소힙) 우선순위 큐에 집어 넣으면서,
 	for (int i = 0; i < num; i++) {
 		day = arr[i].first;
