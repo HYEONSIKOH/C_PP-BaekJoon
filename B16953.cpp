@@ -1,4 +1,4 @@
-// ¹éÁØ 16953 [±×¸®µð ¾Ë°í¸®Áò] ¼ýÀÚ º¯È¯ÇÏ±â
+// ë°±ì¤€ 16953 [ê·¸ë¦¬ë”” ì•Œê³ ë¦¬ì¦˜] ìˆ«ìž ë³€í™˜í•˜ê¸°
 #include <iostream>
 using namespace std;
 
@@ -18,7 +18,7 @@ int main() {
 		}
 
 		else {
-			if (B % 2 == 1) { // È¦¼öÀÏ °æ¿ì´Â ¹«Á¶°Ç ¾È´ï!
+			if (B % 2 == 1) { // í™€ìˆ˜ì¼ ê²½ìš°ëŠ” ë¬´ì¡°ê±´ ì•ˆëŒ!
 				cout << -1;
 				return 0;
 			}
@@ -26,12 +26,12 @@ int main() {
 			count++;
 		}
 
-		if (A == B) { // A¶û B°¡ °°À¸¸é ³»°¡ ¿øÇÏ´Â °ªÀÌ±â ¶§¹®¿¡ count¸¦ Ãâ·Â
+		if (A == B) { // Aëž‘ Bê°€ ê°™ìœ¼ë©´ ë‚´ê°€ ì›í•˜ëŠ” ê°’ì´ê¸° ë•Œë¬¸ì— countë¥¼ ì¶œë ¥
 			count++;
 			cout << count;
 			return 0;
 		}
-		else if (A > B) { // B°¡ Aº¸´Ù ÀÛ¾ÆÁö¸é ³»°¡ ¿øÇÏ´Â °ªÀÌ ¾È³ª¿À±â ¶§¹®¿¡, -1¸¦ Ãâ·Â
+		else if (A > B) { // Bê°€ Aë³´ë‹¤ ìž‘ì•„ì§€ë©´ ë‚´ê°€ ì›í•˜ëŠ” ê°’ì´ ì•ˆë‚˜ì˜¤ê¸° ë•Œë¬¸ì—, -1ë¥¼ ì¶œë ¥
 			cout << -1;
 			return 0;
 		}
