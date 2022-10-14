@@ -1,12 +1,13 @@
+// 백준 1463 [DP] 모든 정수들을 1로 바꾸는 마술
 #include <iostream>
 #include <vector>
 using namespace std;
 
 int main() {
 	ios_base::sync_with_stdio(false),cin.tie(NULL), cout.tie(NULL);
+
 	int num;
 	cin >> num;
-	int cnt = 0;
 	vector<int> v(num + 1, 0);
 	int min = 10000000;
 	v[1] = 0, v[2] = 1, v[3] = 1;
