@@ -1,4 +1,4 @@
-// ¹éÁØ 1463 [DP] ¸ğµç Á¤¼öµéÀ» 1·Î ¹Ù²Ù´Â ¸¶¼ú
+// ë°±ì¤€ 1463 [DP] ëª¨ë“  ì •ìˆ˜ë“¤ì„ 1ë¡œ ë°”ê¾¸ëŠ” ë§ˆìˆ 
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -10,6 +10,7 @@ int main() {
 	cin >> num;
 	vector<int> v(num + 1, 0);
 	int min = 10000000;
+	
 	v[1] = 0, v[2] = 1, v[3] = 1;
 
 	for (int i = 4; i < num+1; i++) {
