@@ -1,4 +1,4 @@
-// 백준 14728 [DP - 타뷸레이션] 벼락치기
+// 백준 14728 [DP - 타뷸레이션] 벼락치기!
 #include <iostream>
 #include <vector>
 using namespace std;
